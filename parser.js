@@ -44,7 +44,7 @@ function add_globals(env){
 
 var global_env = add_globals(Env({parms: [], args: [], outer: undefined}));
 
-// eval..................................................................
+// eval
 
 function eval(x, env){
     // function to evaluate an expression in an evironment
@@ -91,7 +91,7 @@ function eval(x, env){
 }
 
 
-// parse..................................................................
+// parse
 
 function parse(s){
 	// Read a scheme expression from a string.
